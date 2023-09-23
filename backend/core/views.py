@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from json import JSONDecodeError
 from django.http import JsonResponse
 from .serializers import ContactSerializer
@@ -35,3 +36,8 @@ class ContactAPIView(views.APIView):
                 return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         except JSONDecodeError:
             return JsonResponse({"result": "error","message": "Json decoding error"}, status= 400)
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> 1dfba54f1272c1f92fa2949c1038b6845b34ac7e

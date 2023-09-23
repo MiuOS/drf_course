@@ -1,4 +1,5 @@
 from django.db import models
+<<<<<<< HEAD
 from utils.model_abstracts import Model
 from django_extensions.db.models import (
 	TimeStampedModel, 
@@ -20,3 +21,7 @@ class Contact(
 
 	def __str__(self):
 		return f'{self.title}'
+=======
+
+# Create your models here.
+>>>>>>> 1dfba54f1272c1f92fa2949c1038b6845b34ac7e
